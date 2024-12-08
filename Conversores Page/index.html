@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades - Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Conversor de Unidade</h1>
+        </header>
+
+        <div class="boxes">
+
+            <div class="box" id="box1">
+                <h2>Metros -> Km / Milhas</h2>
+                <div class="inputs-box">
+                    <div class="content-input" id="convert-metros">
+                        <p>Digite o valor em metros</p>
+                        <input id="metros-value" type="text">
+                    </div>
+                    <div class="content-input" id="convert-km">
+                        <p>Valor em km</p>
+                        <div id="km-value"></div>
+                    </div>
+                    <div class="content-input" id="convert-milhas">
+                        <p>Valor em milhas</p>
+                        <div id="milhas-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="box2">
+                <h2>Celsius -> Fahrenheit</h2>
+                <div class="inputs-box">
+                    <div class="content-input" id="convert-celsius">
+                        <p>Digite o valor em graus celsius</p>
+                        <input id="celsius-value" type="text">
+                    </div>
+                    <div class="content-input" id="convert-fah">
+                        <p>Valor em fahrenheit</p>
+                        <div id="fah-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="box3">
+                <h2>Horas -> Minutos</h2>
+                <div class="inputs-box">
+                    <div class="content-input" id="convert-hours">
+                        <p>Digite o valor em horas</p>
+                        <input id="hours-value" type="text">
+                    </div>
+                    <div class="content-input" id="convert-minuts">
+                        <p>Valor em minutos</p>
+                        <div id="minuts-value"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>&copy; Pedro Barbosa</p>
+            <div class="links-footer">
+                <a href="https://www.instagram.com/pedrohrz7/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/pedrohenriquerb/" target="_blank">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
